@@ -5,6 +5,14 @@ function somar(a, b) {
     return a + b;
 }
 
+function subtrair(a, b) {
+    return a - b;
+}
+
+function multiplicar(a, b) {
+    return a * b;
+}
+
 function parOuImpar (numero) {
     if (numero % 2 === 0) {
         console.log("par");
@@ -43,6 +51,8 @@ function maiorNumero(numero, numero1) {
 
 //Teste Das Funções
 console.log("10 + 5 =", somar(10, 5));
+console.log("50 - 20 =", subtrair(50,20));
+console.log("10 *5 =", multiplicar(10, 5));
 console.log("numero é par ou impar =", parOuImpar(10));
 console.log("POTENCIAÇÃO: 10 ** 5 =", potenciacao(10, 5));
 console.log("o maior numero é", maiorNumero(30, 20));
