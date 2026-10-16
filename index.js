@@ -5,6 +5,10 @@ function somar(a, b) {
     return a + b;
 }
 
+function potenciacao(a, b) {
+    return a ** b;
+}
+
 function positivo_negativo_zero(a) {
     let resultado
     if (a === 0) {
@@ -31,7 +35,7 @@ function maiorNumero(numero, numero1) {
 
 //Teste Das Funções
 console.log("10 + 5 =", somar(10, 5));
+console.log("POTENCIAÇÃO: 10 ** 5 =", potenciacao(10, 5));
 console.log("o maior numero é", maiorNumero(30, 20));
 console.log("DIVISÃO: 10 / 5 =", divisao(10, 5));
-console.log("10 + 5 =", somar(10, 5));
 console.log(positivo_negativo_zero(9))
